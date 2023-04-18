@@ -4,7 +4,6 @@ import "./style.css";
 const Search = (props) => {
   const [inputText, setInputText] = useState("");
   const [search, setSearch] = useState(false);
-  const [searchedReasult, setSearchedReasult] = useState("");
   const [news, setNews] = useState("");
 
   useEffect(() => {
@@ -23,7 +22,6 @@ const Search = (props) => {
    setInputText("")
   };
   console.log(inputText);
-  console.log(searchedReasult);
   console.log(news);
   console.log(search);
   return (
