@@ -1,5 +1,5 @@
 .searchbar {
-    font-size: 14px;
+    font-size: 18px;
     font-family: arial, sans-serif;
     color: #202124;
     display: flex;
@@ -26,7 +26,7 @@
   }
   
   .searchbar-left {
-    font-size: 14px;
+    font-size: 18px;
     font-family: arial, sans-serif;
     color: #202124;
     display: flex;
@@ -82,7 +82,8 @@
     flex: 100%;
     margin-top: -37px;
     height: 34px;
-    font-size: 16px;
+    font-size: 19px;
+    font-weight: 560;
     max-width: 100%;
     width: 100%;
   }
@@ -110,23 +111,27 @@
     padding: 0 8px;
     width: 2.8em;
   }
+  
   li{
-    color: white;
+    color: rgb(221, 214, 214);
     list-style-type: none;
   }
   a{
-    color: white;
+    color: rgb(58, 169, 238);
   }
-  hr{
-    height: 4rem;
-    width: 80vw;
-    margin: auto;
-  }
+  
+  
+ 
   button{
     padding: .4rem 1.2rem;
     border-radius: 10px;
     font-weight: 600;
     font-size: 1.2rem;
+    
+  }
+  button:hover{
+    background-color: gray;
+    transition: 600ms;
   }
   @keyframes ldio-4j5ay0xf86g {
     0% {
@@ -242,3 +247,25 @@
    .ldio-4j5ay0xf86g div {
     box-sizing: content-box;
    }
+   .list{
+    text-align: left;
+    width: 60vw;
+    margin: auto;
+    
+   }
+   .flex{
+    display: flex;
+    
+   }
+   span{
+    color: rgb(199, 34, 34);
+    margin-left: 12rem;
+    
+   }
+   hr{
+    width: 90%;
+    align-items: start;
+    height: 2rem;
+    margin-bottom: 2rem;
+   }
+   
