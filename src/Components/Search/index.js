@@ -10,7 +10,7 @@ const Search = (props) => {
     fetch(`http://hn.algolia.com/api/v1/search?query=${inputText}`)
       .then((res) => res.json())
       .then((data) => setNews(data));
-  }, [search]);
+  }, [inputText]);
 
   const handleChange = (e) => {
     e.preventDefault();
